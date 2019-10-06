@@ -13,14 +13,23 @@ body {
 }
 
 .story--box {
-	margin:15px;
+	margin:16px;
 	height: 220px;
 	width: 220px;
 	border: 5px dotted #fdda1c;
 	border-radius: 50%;
 }
 
+.story__click {
+	height:350px;
+	width:350px;
+	margin:16px;
+	border: 5px dotted #fdda1c;
+	border-radius: 50%;
+}
+
 .story--preview {
+	display:none;
 	padding: 65px 5px 65px 5px;
 	font-family: 'Major Mono Display', monospace;
 	color:#fdda1c;
@@ -29,17 +38,24 @@ body {
 }
 
 .story__hide {
-
+	font-family: 'Space Mono', monospace;
+	padding: 65px 30px 65px 30px;
 }
 
 .story--title {
-
+	font-size: 1em;
+	color: #FFFFFF;
 }
 
 .story--content {
-
+	font-size: 0.8em;
+	color: #FFFFFF;
 }
 
 .story--link {
-
+	font-size: 0.75em;
+	color:#fdda1c;
+	text-decoration-style: dotted;
+	padding-left: 15px;
+	
 }
