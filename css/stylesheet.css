@@ -2,16 +2,30 @@
 	box-sizing:border-box;
 }
 
+body {
+	background-color: #192a53;
+}
+
 .story {
-	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .story--box {
-
+	margin:15px;
+	height: 220px;
+	width: 220px;
+	border: 5px dotted #fdda1c;
+	border-radius: 50%;
 }
 
 .story--preview {
-
+	padding: 65px 5px 65px 5px;
+	font-family: 'Major Mono Display', monospace;
+	color:#fdda1c;
+	text-align: center;
+	font-size: 1.25em;
 }
 
 .story__hide {
