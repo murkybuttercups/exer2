@@ -1,0 +1,21 @@
+.title {
+	opacity: 0.75;
+	border-radius: 0px 40px 0px 0px;
+	position: fixed;
+	padding: 45px;
+	left: 0;
+	bottom: 0;
+	background-color: #0f1932;
+}
+
+.title--text{
+	font-family: 'Major Mono Display', monospace;
+	color:#fdda1c;
+	font-size: 3em;
+	text-decoration: none;
+}
+
+.title--text:hover {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
